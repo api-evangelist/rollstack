@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://auth.rollstack.com/.well-known/openid-configuration, https://www.rollstack.com/security
+docs: https://docs.rollstack.com/user-management
+summary:
+  types: [openIdConnect, oauth2, saml]
+  oauth2_flows: [authorizationCode, clientCredentials, deviceCode, refreshToken]
+  sso: true
+notes: >-
+  Rollstack has no public developer REST API; authentication described here is
+  the platform sign-in / SSO surface. Identity is handled by an Auth0 tenant on
+  the custom domain auth.rollstack.com, which publishes a standard OpenID Connect
+  discovery document. Enterprise SAML single sign-on is brokered through BoxyHQ
+  Jackson (jackson.rollstack.com). Social/enterprise connections include Google
+  and Microsoft (Azure AD).
+schemes:
+- name: OpenIDConnect
+  type: openIdConnect
+  openIdConnectUrl: https://auth.rollstack.com/.well-known/openid-configuration
+  issuer: https://auth.rollstack.com/
+  authorization_endpoint: https://auth.rollstack.com/authorize
+  token_endpoint: https://auth.rollstack.com/oauth/token
+  userinfo_endpoint: https://auth.rollstack.com/userinfo
+  jwks_uri: https://auth.rollstack.com/.well-known/jwks.json
+  scopes_supported: [openid, profile, offline_access, email, phone, address]
+  source: https://auth.rollstack.com/.well-known/openid-configuration
+- name: SAML SSO
+  type: saml
+  provider: BoxyHQ Jackson
+  url: https://jackson.rollstack.com
+  source: https://www.rollstack.com/security

@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of Rollstack hosts
+notes: >-
+  Rollstack authenticates through an Auth0 tenant on the custom domain
+  auth.rollstack.com, which publishes a standard OpenID Connect discovery
+  document. The product backend api.rollstack.com responds 451 to
+  non-browser clients (WAF), and app.rollstack.com serves the SPA shell
+  (HTTP 200 HTML) for unknown /.well-known paths rather than a real document.
+hosts:
+- host: https://auth.rollstack.com
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: rollstack-openid-configuration.json
+- host: https://www.rollstack.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://rollstack.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://api.rollstack.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 451

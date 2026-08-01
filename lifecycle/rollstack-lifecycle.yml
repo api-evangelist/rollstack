@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.rollstack.com/ (site navigation), https://status.rollstack.com/, https://docs.rollstack.com/changelog
+status_page: https://status.rollstack.com/
+changelog: https://docs.rollstack.com/changelog
+versioning:
+  scheme: unknown
+  notes: >-
+    Rollstack does not publish a public REST API versioning or deprecation
+    policy. The product backend (api.rollstack.com) is a private SPA backend,
+    not a documented developer API. A dated product changelog is maintained in
+    the documentation site.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+  uptime_target: null
+deprecated_operations: []
