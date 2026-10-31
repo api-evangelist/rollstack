@@ -64,6 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rollstack is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Rollstack is a business-intelligence reporting automation platform that connects live data from BI and analytics tools directly into presentations, documents, and emails. It lets teams build recurring QBRs, financial decks, board reports, and client scorecards that stay in sync with their underlying data by embedding dashboards and visualizations into Google Slides, Google Docs, Microsoft PowerPoint, Microsoft Word, and email, then refreshing them on a schedule. Rollstack integrates with Tableau, Power BI, Looker, Metabase, Omni, Lightdash, Google Sheets, Microsoft Excel, and Snowflake, and distributes the resulting content through Microsoft 365 and Google Workspace. Authentication is handled through Auth0 (OpenID Connect) with SAML-based single sign-on. Rollstack is backed by Insight Partners.
 
-Backed by: insight-partners — https://www.rollstack.com/
+**Areas:** Company · Business Intelligence · Reporting · Presentations · Documents · Data Automation · Analytics · Productivity
+
+## Rollstack on APIs.io
+
+Everything profiled for Rollstack is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rollstack/](https://apis.io/providers/rollstack/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rollstack Authentication](https://apis.io/security/rollstack/rollstack-authentication/)
+- [Rollstack Domain Security](https://apis.io/security/rollstack/rollstack-domain-security/)
+- [Rollstack Trust Center](https://apis.io/security/rollstack/rollstack-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.rollstack.com/)
+- [Documentation](https://docs.rollstack.com/)
+- [Pricing](https://www.rollstack.com/pricing)
+- [Sign up](https://app.rollstack.com/)
+- [Support](https://www.rollstack.com/book-a-demo)
+- [Changelog](https://docs.rollstack.com/changelog)
+- [Blog](https://www.rollstack.com/blog)
+- [Security](https://www.rollstack.com/security)
+- [Compliance](https://www.rollstack.com/security)
+- [Terms of service](https://www.rollstack.com/terms)
+- [Privacy policy](https://www.rollstack.com/privacy-policy)
+- [GitHub](https://github.com/rollstack)
+- [Status](https://status.rollstack.com/)
+
+## API Evangelist rating
+
+**Kin Score 24.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 47.4 |
+
+**Agent readiness 15.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rollstack/](https://apis.io/providers/rollstack/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rollstack: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rollstack/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
